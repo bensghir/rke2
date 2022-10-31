@@ -1,0 +1,141 @@
+ 
+
+None
+
+Not available
+
+Not available
+
+
+Not available
+
+
+admin Log Out
+{
+"type": "collection",
+"links": {
+"self": "…/v1-release/channels"
+},
+"actions": { },
+"resourceType": "channels",
+"data": [ 11 items
+{
+"id": "stable",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/stable"
+},
+"name": "stable",
+"latest": "v1.24.7+rke2r1"
+},
+{
+"id": "latest",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/latest"
+},
+"name": "latest",
+"latest": "v1.25.3+rke2r1",
+"latestRegexp": ".*",
+"excludeRegexp": "(^[^+]+-|v1\\.21\\.3\\+rke2r2)"
+},
+{
+"id": "v1.18",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.18"
+},
+"name": "v1.18",
+"latest": "v1.18.20+rke2r1",
+"latestRegexp": "v1\\.18\\..*",
+"excludeRegexp": "^[^+]+-"
+},
+{
+"id": "v1.19",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.19"
+},
+"name": "v1.19",
+"latest": "v1.19.16+rke2r1",
+"latestRegexp": "v1\\.19\\..*",
+"excludeRegexp": "(^[^+]+-|v1\\.19\\.13\\+rke2r1)"
+},
+{
+"id": "testing",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/testing"
+},
+"name": "testing",
+"latest": "v1.25.3-rc2+rke2r1",
+"latestRegexp": "-(alpha|beta|rc)"
+},
+{
+"id": "v1.20",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.20"
+},
+"name": "v1.20",
+"latest": "v1.20.15+rke2r2",
+"latestRegexp": "v1\\.20\\..*",
+"excludeRegexp": "(^[^+]+-|v1\\.20\\.9\\+rke2r1)"
+},
+{
+"id": "v1.21",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.21"
+},
+"name": "v1.21",
+"latest": "v1.21.14+rke2r1",
+"latestRegexp": "v1\\.21\\..*",
+"excludeRegexp": "(^[^+]+-|v1\\.21\\.3\\+rke2r2)"
+},
+{
+"id": "v1.22",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.22"
+},
+"name": "v1.22",
+"latest": "v1.22.15+rke2r2",
+"latestRegexp": "v1\\.22\\..*",
+"excludeRegexp": "^[^+]+-"
+},
+{
+"id": "v1.23",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.23"
+},
+"name": "v1.23",
+"latest": "v1.23.13+rke2r1",
+"latestRegexp": "v1\\.23\\..*",
+"excludeRegexp": "^[^+]+-"
+},
+{
+"id": "v1.24",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.24"
+},
+"name": "v1.24",
+"latest": "v1.24.7+rke2r1",
+"latestRegexp": "v1\\.24\\..*",
+"excludeRegexp": "^[^+]+-"
+},
+{
+"id": "v1.25",
+"type": "channel",
+"links": {
+"self": "…/v1-release/channels/v1.25"
+},
+"name": "v1.25",
+"latest": "v1.25.3+rke2r1",
+"latestRegexp": "v1\\.25\\..*",
+"excludeRegexp": "^[^+]+-"
+}
+]
+}
